@@ -1,25 +1,25 @@
 #include "operaciones.h"
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
-
-int sumar(int a, int b) {
+// Sumar recibe 2 enteros a y b no modificables (const) y devuelve su suma.
+int sumar(const int a,const int b) {
     return a + b;
 }
 
 /* ── restar — ya implementada ────────────────────────────────────────────── */
 
-int restar(int a, int b) {
+int restar(const int a, const int b) {
     return a - b;
 }
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
 
-int multiplicar(int a, int b) {
-    return a*b; /* multiplica dos numeros ingresados por el usuario */
+int multiplicar(const int a, const int b) {
+    return a*b; /* Recibe 2 valores enteros y multiplica los dos numeros ingresados por el usuario */
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
-int esPar(int n) {
+int esPar(const int n) {
     return (n % 2) == 0;
 }

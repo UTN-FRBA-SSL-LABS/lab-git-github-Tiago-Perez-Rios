@@ -8,18 +8,18 @@ int sumar(const int a,const int b) {
 
 /* ── restar — ya implementada ────────────────────────────────────────────── */
 
-int restar(int a, int b) {
+int restar(const int a, const int b) {
     return a - b;
 }
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
 
-int multiplicar(int a, int b) {
+int multiplicar(const int a, const int b) {
     return a*b; /* Recibe 2 valores enteros y multiplica los dos numeros ingresados por el usuario */
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
-int esPar(int n) {
+int esPar(const int n) {
     return (n % 2) == 0;
 }

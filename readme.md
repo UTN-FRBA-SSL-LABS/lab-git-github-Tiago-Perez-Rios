@@ -251,7 +251,7 @@ En GitHub:
 1. Entrá a tu repositorio
 2. Vas a ver un banner amarillo: **"feature/mi-funcion had recent pushes"** → hacé click en **Compare & pull request**
 3. Asegurate de que la base sea `main` y el compare sea `feature/mi-funcion`
-4. Escribí un título descriptivo: `Implementa función multiplicar`
+4. Escribí un título descriptivo: `make `
 5. En la descripción explicá brevemente qué hiciste y cómo verificaste que funciona
 6. Hacé click en **Create pull request**
 
@@ -287,7 +287,7 @@ c) Para que el historial de commits sea más corto y lineal
 d) Porque GitHub Classroom lo requiere para la corrección automática
 
 ```
-RESPUESTA_P1=
+RESPUESTA_P1=b
 ```
 
 ---
